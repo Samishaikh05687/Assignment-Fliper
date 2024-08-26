@@ -1,0 +1,89 @@
+/* Happy Clients Container */
+h2{
+    color: #2980b9; 
+}
+
+.happy-clients-container {
+  min-height: 100vh;
+  background-color: #f8fafc; /* Equivalent to bg-gray-50 */
+  padding-top: 2.5rem; /* Equivalent to py-10 */
+  padding-bottom: 2.5rem;
+}
+
+/* Content Wrapper */
+.happy-clients-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title Styling */
+.happy-clients-title {
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  font-weight: 700; /* Equivalent to font-bold */
+  text-align: center;
+  margin-bottom: 2.5rem; /* Equivalent to mb-10 */
+}
+
+/* Grid Layout */
+.happy-clients-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default to 1 column */
+  gap: 2rem; /* Equivalent to gap-8 */
+}
+
+/* Responsive Grid for Small Screens */
+@media (min-width: 640px) {
+  .happy-clients-grid {
+    grid-template-columns: repeat(2, 1fr); /* Equivalent to sm:grid-cols-2 */
+  }
+}
+
+/* Responsive Grid for Medium Screens */
+@media (min-width: 768px) {
+  .happy-clients-grid {
+    grid-template-columns: repeat(3, 1fr); /* Equivalent to md:grid-cols-3 */
+  }
+}
+
+/* Client Card Styling */
+.client-card {
+  background-color: white; /* Equivalent to bg-white */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  padding: 1.5rem; /* Equivalent to p-6 */
+}
+
+/* Client Card Content Centering */
+.client-card-content {
+  text-align: center;
+}
+
+/* Client Image Styling */
+.client-image {
+  width: 5rem; /* Equivalent to w-20 */
+  height: 5rem; /* Equivalent to h-20 */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%; /* Equivalent to rounded-full */
+  object-fit: cover; /* Equivalent to object-cover */
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+}
+
+/* Client Description Styling */
+.client-description {
+  color: #718096; /* Equivalent to text-gray-600 */
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+}
+
+/* Client Name Styling */
+.client-name {
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  font-weight: 600; /* Equivalent to font-semibold */
+  color: #217BF4; /* Equivalent to text-blue-600 */
+}
+
+/* Client Designation Styling */
+.client-designation {
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  color: #a0aec0; /* Equivalent to text-gray-500 */
+}

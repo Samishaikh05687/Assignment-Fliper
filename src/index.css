@@ -1,0 +1,9 @@
+/* Make sure this is not set globally */
+body, html {
+    margin:0;
+    padding:0;
+    overflow: auto; /* or overflow: visible; */
+    min-height: 100vh;  /* Ensure height is set */
+   width:100vw; 
+}
+  
